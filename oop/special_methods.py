@@ -1,4 +1,12 @@
 class Human:
+  """Human class
+
+    Args:
+      first(string): first name
+      last(string): last name
+      age(int):  the age
+
+  """
   def __init__(self, first, last, age):
     self.first = first
     self.last = last
